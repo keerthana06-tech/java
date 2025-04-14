@@ -35,7 +35,7 @@ class Customer extends Thread{
 
         Customer c1 = new Customer(account,700, "Alice");
         Customer c2 = new Customer(account, 500, "Bob");
-        Customer c3 = new Customer(account, 400, "Charlie")
+        Customer c3 = new Customer(account, 400, "Charlie");
 
         c1.start();
         c2.start();
